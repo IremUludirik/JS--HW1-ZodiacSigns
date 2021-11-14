@@ -3,7 +3,7 @@ let namee=prompt("Please Enter Your Name","Name")
 let surname=prompt("Please Enter Your Surname","Surname")
 let birthDay0=prompt("Please Enter Your Birth Day", "Day")
 let birthDay=Number(birthDay0);
-let birthMonth0=prompt("Please Enter Which Month You Are Born","Do not use 0")
+let birthMonth0=prompt("Please Enter Which Month You Are Born","Month")
 let birthMonth=Number(birthMonth0);
 let birthYear=prompt("Please Enter Your Birth Year","Year")
 
