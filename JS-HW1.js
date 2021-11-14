@@ -93,7 +93,11 @@ function determineZodiac(yearDay){
         zodiac="Sagittarius";
         let zodiacExp = document.querySelector("#zodiacExp")
         zodiacExp.innerHTML="Oh, the places Sagittarius goes! But… actually. This fire sign knows no bounds. Represented by the archer, Sagittarians are always on a quest for knowledge. The last fire sign of the zodiac, Sagittarius launches its many pursuits like blazing arrows, chasing after geographical, intellectual, and spiritual adventures. "
-    } else if (yearDay>=356 && yearDay<=365 && yearDay>=1 && yearDay<=19 ){
+    } else if (yearDay>=356 && yearDay<=365){
+        zodiac="Capricornus";
+        let zodiacExp = document.querySelector("#zodiacExp")
+        zodiacExp.innerHTML="What is the most valuable resource? For Capricorn, the answer is clear: Time. Capricorn is climbing the mountain straight to the top and knows that patience, perseverance, and dedication is the only way to scale. The last earth sign of the zodiac, Capricorn, is represented by the sea-goat, a mythological creature with the body of a goat and the tail of a fish. Accordingly, Capricorns are skilled at navigating both the material and emotional realms."
+    } else if (yearDay>=1 && yearDay<=19){
         zodiac="Capricornus";
         let zodiacExp = document.querySelector("#zodiacExp")
         zodiacExp.innerHTML="What is the most valuable resource? For Capricorn, the answer is clear: Time. Capricorn is climbing the mountain straight to the top and knows that patience, perseverance, and dedication is the only way to scale. The last earth sign of the zodiac, Capricorn, is represented by the sea-goat, a mythological creature with the body of a goat and the tail of a fish. Accordingly, Capricorns are skilled at navigating both the material and emotional realms."
