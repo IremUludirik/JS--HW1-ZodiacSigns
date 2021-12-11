@@ -1,0 +1,43 @@
+        body{
+            background-color: rgb(112, 174, 224);
+        }
+        h1,h4{
+            text-align: center;
+            font-family: Elephant;
+            color: rgb(12, 12, 70);
+        }
+
+        .box {
+        display: flex;
+      }
+
+        .one {
+            flex: 1;
+            font-family: Elephant;
+            color: rgb(79, 60, 150);
+        }
+
+        .two {
+            flex: 1;
+            text-align: center;
+            color: rgb(241, 233, 201);
+        }
+
+        .three {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .rounded{border-radius: 100%;
+        }
+      
+        .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(79, 60, 150);
+        color: white;
+        text-align: center;
+        }
+        
