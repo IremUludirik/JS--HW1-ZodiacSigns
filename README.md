@@ -1,6 +1,6 @@
-# JS-ZodiacSigns
+# ZodiacSigns
 
-https://iremuludirik.github.io/JS-ZodiacSigns
+https://iremuludirik.github.io/ZodiacSigns
 
 It asks for your name at the entrance and then places it on the welcome screen and prints your horoscope and interpretation, showing the current time and day.
 
